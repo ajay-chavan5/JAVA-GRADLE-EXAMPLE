@@ -16,4 +16,10 @@ public class AppTest {
     App classUnderTest = new App();
     assertNotNull("app should have a statement", classUnderTest.getStatement());
   }
+
+  @Test
+  public void testAppHasAGoodbye() {
+    App classUnderTest = new App();
+    assertNotNull("app should have a statement", classUnderTest.getGoodbye());
+  }
 }
