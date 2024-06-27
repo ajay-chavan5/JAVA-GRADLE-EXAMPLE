@@ -5,7 +5,7 @@ public class App {
 
   // main
   public static void main(String[] args) {
-    
+     //method not used
   }
 
   // getGreeting
