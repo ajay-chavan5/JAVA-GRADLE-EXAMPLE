@@ -8,6 +8,7 @@ public class App {
     App app = new App();
     System.out.println(app.getGreeting());
     System.out.println(app.getStatement());
+    System.out.println(app.getGoodbye());
   }
 
   // getGreeting
@@ -19,4 +20,10 @@ public class App {
   public String getStatement() {
     return "The weather is really lovely.";
   }
+
+  //getGoodbye
+  public String getGoodbye() {
+    return "Have a great day, Goodbye!";
+  }
+  
 }
