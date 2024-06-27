@@ -18,9 +18,5 @@ public class App {
     return "The weather is really lovely.";
   }
 
-  //getGoodbye
-  public String getGoodbye() {
-    return "Have a great day, Goodbye!";
-  }
   
 }
