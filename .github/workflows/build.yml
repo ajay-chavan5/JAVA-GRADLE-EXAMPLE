@@ -1,9 +1,12 @@
 name: Build
 on:
-  push:
-    branches:
-      - main
-      - branch-1
+  workflow_call:
+    inputs:
+      save_dist:
+        type: boolean
+    secrets:
+      SONAR_TOKEN:
+        required: true
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
