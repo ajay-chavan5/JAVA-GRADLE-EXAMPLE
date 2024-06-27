@@ -38,6 +38,6 @@ mainClassName = 'App'
 
 jacocoTestReport {
     reports {
-        xml.enabled true
+        xml.enabled = true
     }
 }
